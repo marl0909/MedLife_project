@@ -1,0 +1,95 @@
+.form-wrapper {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 700px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.form-wrapper__logo {
+    margin-left: 20px;
+}
+
+.form-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-inline: auto;
+    align-items: flex-end;
+}
+
+.form-btn-closer {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.form {
+    background: #0e101c;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.text-error {
+    color: #bf1650;
+    font-size: 16px;
+}
+
+.text-error::before {
+    display: inline;
+    content: "⚠ ";
+}
+
+input {
+    height: 48px;
+    width: 311px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    margin: 0;
+
+
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+
+input::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+button:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+}
+
+button {
+    margin-top: 25px;
+    height: 48px;
+    width: 311px;
+    color: white;
+    font-family: Poppins;
+    background-color: rgba(215, 69, 60, 1);
+    border-radius: 50px;
+    cursor: pointer;
+
+}

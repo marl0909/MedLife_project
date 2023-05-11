@@ -1,0 +1,22 @@
+.popular-service__item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 270px;
+    margin-inline: auto;
+    height: 120px;
+    border-radius: 20px;
+    z-index: 5;
+}
+
+.popular-service__item p {
+    text-align: center;
+}
+
+.popular-service__item span {
+    position: absolute;
+    bottom: 5px;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+}
